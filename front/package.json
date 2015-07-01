@@ -1,0 +1,30 @@
+{
+  "name": "node-multi-reverse-proxy-web-tools-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pelirrojo/node-multi-reverse-proxy-web-tools.git"
+  },
+  "private": true,
+  "keywords": [
+    "node",
+    "docker",
+    "reverse-proxy",
+    "http-proxy",
+    "compose"
+  ],
+  "author": "Manuel E. de Paz Carmona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pelirrojo/node-multi-reverse-proxy-web-tools/issues"
+  },
+  "homepage": "https://github.com/Pelirrojo/node-multi-reverse-proxy-web-tools#readme",
+  "dependencies": {
+    "http-proxy": "^1.11.1"
+  }
+}

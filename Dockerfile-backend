@@ -1,15 +1,15 @@
 FROM node:latest
 
-RUN mkdir /src
+RUN mkdir /back
 
 RUN npm install nodemon -g
 
 WORKDIR /src
-ADD app/package.json /src/package.json
+ADD app/package.json /back/package.json
 RUN npm install
 
-ADD app/nodemon.json /src/nodemon.json
+ADD app/nodemon.json /back/nodemon.json
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD npm start
