@@ -15,7 +15,7 @@ backend:
     - "app:/back"
 
 neo4j:
-  image: tpires/neo4j
+  image: pelirrojo/neo4j-and-graphaware-framework
   ports:
     - "7474:7001"
 
