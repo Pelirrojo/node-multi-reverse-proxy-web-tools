@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .row
+    .col-md-8.col-md-offset-3
+      h1#title= title
+
+    .col-md-8.col-md-offset-2
+      #iframe1.well
+        iframe#madrid(name='neo4j', src='neo4j_url', width='100%', height='400px')
+
+    .col-md-8.col-md-offset-2
+      #iframe2.well
+        iframe#valencia(name='mysql', src='mysql_url', width='100%', height='400px')
+
+    .col-md-8.col-md-offset-2
+      #iframe3.well
+        iframe#valencia(name='qgis', src='qgis_url', width='100%', height='400px')
+
+    .col-md-8.col-md-offset-2
+      #iframe4.well
+        iframe#valencia(name='jsonServer', src='jsonServer_url', width='100%', height='400px')

@@ -1,0 +1,11 @@
+{
+  "restartable": "rs",
+  "verbose": false,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "execMap": {
+    "js": "npm start"
+  }
+}

@@ -5,11 +5,11 @@ RUN mkdir /front
 RUN npm install nodemon -g
 
 WORKDIR /front
-ADD app/package.json /front/package.json
+ADD front/package.json /front/package.json
 RUN npm install
 
-ADD app/nodemon.json /front/nodemon.json
+ADD front/nodemon.json /front/nodemon.json
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD npm start
