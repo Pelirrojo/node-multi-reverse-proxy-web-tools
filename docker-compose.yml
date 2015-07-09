@@ -2,7 +2,7 @@ frontend:
   dockerfile: Dockerfile-frontend
   build: ./
   ports:
-   - "8080:8080"
+   - "3000:8080"
   volumes:
     - "app:/front"
 
@@ -15,17 +15,17 @@ backend:
     - "app:/back"
 
 neo4j:
-  image: tpires / neo4j
+  image: tpires/neo4j
   ports:
     - "7474:7001"
 
 mysql:
-  image: wnameless / mysql-phpmyadmin
+  image: wnameless/mysql-phpmyadmin
   ports:
     - "3306:7002"
 
 qgis:
-  image: opengisch / qgis-server-webclient
+  image: opengisch/qgis-server-webclient
   ports:  
   - "80:7003"  
 
