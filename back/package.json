@@ -26,6 +26,6 @@
   "homepage": "https://github.com/Pelirrojo/node-multi-reverse-proxy-web-tools#readme",
   "dependencies": {
     "http-proxy": "^1.11.1",
-    "lodash": "^3.10.0"
+    "lodash": "^4.17.15"
   }
 }
